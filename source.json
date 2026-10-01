@@ -1,0 +1,41 @@
+{
+  "name": "GymM8",
+  "subtitle": "Private GymM8 builds for family and friends",
+  "description": "Install and update GymM8 through AltStore Classic.",
+  "iconURL": "https://raw.githubusercontent.com/Sajma27/GymM8-AltStore/main/gm8-logo.png",
+  "website": "https://github.com/Sajma27/GymM8-AltStore",
+  "tintColor": "#0A84FF",
+  "apps": [
+    {
+      "name": "GymM8",
+      "bundleIdentifier": "com.3IT.GymM8",
+      "developerName": "Sajma27",
+      "subtitle": "Track workouts and gym progress",
+      "localizedDescription": "Plan workouts, record sets, follow progression, and review your gym history.",
+      "iconURL": "https://raw.githubusercontent.com/Sajma27/GymM8-AltStore/main/gm8-logo.png",
+      "tintColor": "#0A84FF",
+      "category": "lifestyle",
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-10-01",
+          "localizedDescription": "Adds complete backup and restore, workout and exercise sharing, improved workout views, split arm and leg tracking, and reliability fixes.",
+          "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.1.0/GymM8-1.1-2.ipa",
+          "size": 2544816,
+          "sha256": "367c55c9aa3ef8da001c9170f9360b4bc35d9283d18e371eeef684855f777fc1",
+          "minOSVersion": "26.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "GymM8 uses the camera to scan shared exercise QR codes."
+        }
+      }
+    }
+  ],
+  "news": []
+}
