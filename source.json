@@ -17,6 +17,16 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "1.4",
+          "buildVersion": "5",
+          "date": "2026-10-05",
+          "localizedDescription": "Adds Apple Health: optionally save strength workouts, read active calories and heart-rate measurements from Apple Watch and other Health sources, refresh finished workouts, and reuse matching workout records. Enable the options in Settings → Apple Health. For frequent Apple Watch readings, start Strength Training in the watch Workout app.",
+          "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.4.0/GymM8-1.4-5.ipa",
+          "size": 2947138,
+          "sha256": "3284e538c8f4872351df8640a83ea15b8e4ddf449c01541f5ac0bf82050e4bb1",
+          "minOSVersion": "26.2"
+        },
+        {
           "version": "1.3",
           "buildVersion": "4",
           "date": "2026-10-05",
@@ -49,12 +59,15 @@
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.security.application-groups"
+          "com.apple.security.application-groups",
+          "com.apple.developer.healthkit"
         ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "GymM8 connects to your Garmin to sync workouts, exercise details, and rest timers.",
           "NSBluetoothPeripheralUsageDescription": "GymM8 connects to your Garmin workout companion.",
-          "NSCameraUsageDescription": "GymM8 uses the camera to scan shared exercise QR codes."
+          "NSCameraUsageDescription": "GymM8 uses the camera to scan shared exercise QR codes.",
+          "NSHealthShareUsageDescription": "GymM8 reads workouts, heart rate and active calories from Apple Health, including Apple Watch measurements, to show your workout statistics and avoid duplicate workouts.",
+          "NSHealthUpdateUsageDescription": "GymM8 saves completed strength workouts and their duration to Apple Health when you enable workout syncing."
         }
       }
     }

@@ -1,6 +1,6 @@
-# GymM8 Garmin Companion Privacy
+# GymM8 Privacy
 
-Updated 5 October 2026. Applies to the GymM8 Forerunner 970 companion and its connection to GymM8 on iPhone.
+Updated 5 October 2026. Applies to GymM8's Forerunner 970 companion and Apple Health integration on iPhone.
 
 ## Data used and why
 
@@ -23,3 +23,13 @@ Enable or disable workout syncing in GymM8's Garmin settings. Stop and save a re
 ## Contact
 
 Use the Contact Developer option on the [GymM8 Connect IQ listing](https://apps.garmin.com/apps/cd93a666-cf8e-4082-bced-56e430c06803).
+
+## Apple Health and Apple Watch measurements
+
+Apple Health support in GymM8 is optional. In Settings → Apple Health, choose whether GymM8 may save completed strength workouts and whether it may read workout measurements. Apple's permission sheet lets you choose access to Workouts, Heart Rate and Active Energy Burned. GymM8 does not request clinical records, routes or body-weight data for this integration.
+
+When reading is enabled, GymM8 reads measurements during the workout's start and end times, preferring Apple Watch measurements when available. It displays active calories and average/maximum heart rate with their sources. Imported Health measurements are held in memory; they are not added to GymM8's SwiftData/CloudKit database or exported app backups. They are not sent to the developer, advertisers or an analytics service.
+
+When saving is enabled, GymM8 writes a Traditional Strength Training workout with the real dates, accumulated duration, workout name and a stable identifier to your Apple Health store. It checks for a matching existing workout to avoid duplicate exports. It does not create additional calorie or heart-rate samples from Garmin summary values. Local app storage keeps export identifiers and delivery receipts so retries do not create repeated GymM8 workouts.
+
+Apple Watch recordings and their transfer to Apple Health are handled by Apple's Workout and Health apps. This version does not launch an Apple Watch recording automatically. You can revoke GymM8's permissions in Apple Health and turn the integration off in GymM8. Deleting a GymM8 workout does not automatically delete its Apple Health record; manage those records separately in Health.
