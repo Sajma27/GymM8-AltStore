@@ -17,6 +17,16 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "1.5",
+          "buildVersion": "7",
+          "date": "2026-10-12",
+          "localizedDescription": "Adds global and exercise-specific weight increments, custom steps and equipment weight lists. Coach suggestions and phone/Garmin adjustments follow your available weights. Reorganizes Settings, restores standard Focus layout and improves Garmin command recovery while the phone is locked. Update the Forerunner 970 companion to 1.2.0 for configured watch weight editing.",
+          "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.5.0/GymM8-1.5-7.ipa",
+          "size": 3041101,
+          "sha256": "fab28d3ca1601bf78f8c7708a5b3075f93d1a8c0cb36faf90a6671a09adab56e",
+          "minOSVersion": "26.2"
+        },
+        {
           "version": "1.4",
           "buildVersion": "5",
           "date": "2026-10-05",
