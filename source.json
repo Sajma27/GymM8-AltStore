@@ -17,6 +17,16 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "1.7",
+          "buildVersion": "9",
+          "date": "2026-10-13",
+          "localizedDescription": "Redesigned compact Focus layout with full-size decimal weights, clearer Previous set, compact progress and a scrollable Next Up queue. Rest controls and countdown now share the Next Up tile; Last session comparison is removed. Metrics is available only during workouts, with sync controls inside Metrics and a small status dot beside Workout. Reduces Health reading and heart-rate chart rendering work. Compatible with Garmin companion 1.3.0.",
+          "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.7.0/GymM8-1.7-9.ipa",
+          "size": 3228107,
+          "sha256": "bdb4e8a7deb6ab335039a1d987da5147aa33ea919a6938584343fdc86f3424b3",
+          "minOSVersion": "26.2"
+        },
+        {
           "version": "1.6",
           "buildVersion": "8",
           "date": "2026-10-12",
