@@ -17,6 +17,16 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "1.8",
+          "buildVersion": "10",
+          "date": "2026-10-14",
+          "localizedDescription": "Improves Focus set controls with reliable minus/plus taps, smaller consistent decimal values, quarter-step vertical weight adjustment, an adaptive Next Up queue and Back to Next Up. Coach suggestions are centered and dismissible. Rest editing collapses Next Up; upcoming-set editing hides rest controls. Removes horizontal set gestures and numeric scrolling. Compact PR badge beside Previous set. Compatible with Garmin companion 1.3.0.",
+          "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.8.0/GymM8-1.8-10.ipa",
+          "size": 3248154,
+          "sha256": "42157f24c56741500e37c51bd178857212c00ea73d1cb75af6d296069f985356",
+          "minOSVersion": "26.2"
+        },
+        {
           "version": "1.7",
           "buildVersion": "9",
           "date": "2026-10-13",
@@ -50,7 +60,7 @@
           "version": "1.4",
           "buildVersion": "5",
           "date": "2026-10-05",
-          "localizedDescription": "Adds Apple Health: optionally save strength workouts, read active calories and heart-rate measurements from Apple Watch and other Health sources, refresh finished workouts, and reuse matching workout records. Enable the options in Settings \u2192 Apple Health. For frequent Apple Watch readings, start Strength Training in the watch Workout app.",
+          "localizedDescription": "Adds Apple Health: optionally save strength workouts, read active calories and heart-rate measurements from Apple Watch and other Health sources, refresh finished workouts, and reuse matching workout records. Enable the options in Settings → Apple Health. For frequent Apple Watch readings, start Strength Training in the watch Workout app.",
           "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.4.0/GymM8-1.4-5.ipa",
           "size": 2947138,
           "sha256": "3284e538c8f4872351df8640a83ea15b8e4ddf449c01541f5ac0bf82050e4bb1",
@@ -70,7 +80,7 @@
           "version": "1.2",
           "buildVersion": "3",
           "date": "2026-10-04",
-          "localizedDescription": "Adds a Forerunner 970 companion: current exercise and set display, local rest countdown and alerts, and phone-controlled workout recording. Set up in Settings \u2192 Garmin after installing the USB watch app. Opening from the phone requires confirmation on the watch; finishing saves the Garmin recording and abandoning discards it.",
+          "localizedDescription": "Adds a Forerunner 970 companion: current exercise and set display, local rest countdown and alerts, and phone-controlled workout recording. Set up in Settings → Garmin after installing the USB watch app. Opening from the phone requires confirmation on the watch; finishing saves the Garmin recording and abandoning discards it.",
           "downloadURL": "https://github.com/Sajma27/GymM8-AltStore/releases/download/v1.2.0/GymM8-1.2-3.ipa",
           "size": 2785310,
           "sha256": "be3aa78e2a76b8a2d329844fb668a555e7d388abd36a0a95abac5bcb81b6bd14",
